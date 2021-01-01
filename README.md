@@ -11,7 +11,7 @@ Demo
 ----
 
 ```js
-import { conf } from 'https://deno.land/x/simple_json_set_get@1.0.3/index.js';
+import { conf } from 'https://deno.land/x/simple_json_set_get@1.0.4/index.js';
  
 await conf.set('color', {
   name: 'cerulean',
