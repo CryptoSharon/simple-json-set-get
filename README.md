@@ -13,7 +13,7 @@ Demo
 ```js
 import { conf } from 'https://deno.land/x/simple_json_set_get@1.0.4/index.js';
  
-await conf.set('color', {
+conf.set('color', {
   name: 'cerulean',
   code: {
     rgb: [0, 179, 230],
@@ -21,10 +21,10 @@ await conf.set('color', {
   }
 });
  
-await conf.get('color.name');
+conf.get('color.name');
 // => "cerulean"
  
-await conf.get('color.code.rgb[1]');
+conf.get('color.code.rgb[1]');
 // => 179
 ```
 
@@ -47,3 +47,5 @@ And now I made `simple_json_set_get` for Deno
 I maintain the repository for my team's projects. If you want, you can post issues on github, pull requests, whatever.
 
 It's not typed because the original is not typed. Such is the path of least resistance.
+
+It's also not promisified because the original was not promisified when I forked it.
