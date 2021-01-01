@@ -11,10 +11,10 @@
   "description": "A simple persistent json storage framework.",
   "license": "ISC",
   "main": "index.js",
-  "name": "simple-json-set-get",
+  "name": "simple_json_set_get",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cryptosharon/sharon-storage.git"
+    "url": "git+https://github.com/CryptoSharon/simple_json_set_get.git"
   },
   "scripts": {
     "test": "deno run test/index.js"
