@@ -1,0 +1,23 @@
+{
+  "bundleDependencies": false,
+  "dependencies": {
+    "assert": "^1.4.1",
+    "clone": "^2.1.1",
+    "fs-extra": "^5.0.0",
+    "jsonfile": "^4.0.0",
+    "ramda": "^0.27.0"
+  },
+  "deprecated": false,
+  "description": "A simple persistent json storage framework.",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "simple-json-set-get",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cryptosharon/sharon-storage.git"
+  },
+  "scripts": {
+    "test": "deno run test/index.js"
+  },
+  "version": "1.0.3"
+}
