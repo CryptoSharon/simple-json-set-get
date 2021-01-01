@@ -11,7 +11,7 @@ Demo
 ----
 
 ```js
-import { conf } from 'https://deno.land/x/simple-json-set-get@1.0.3/index.js';
+import { conf } from 'https://deno.land/x/simple_json_set_get@1.0.3/index.js';
  
 await conf.set('color', {
   name: 'cerulean',
@@ -42,7 +42,7 @@ If you want to change the config file directory and name, you need to download t
 
 I forked this project from `electron-settings` NPM package ([url](https://www.npmjs.com/package/electron-settings))
 I made from it `sharon-settings` for Nodejs ([url](https://www.npmjs.com/package/sharon-storage))
-And now I made `simple-json-set-get` for Deno
+And now I made `simple_json_set_get` for Deno
 
 I maintain the repository for my team's projects. If you want, you can post issues on github, pull requests, whatever.
 
