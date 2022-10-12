@@ -24,7 +24,7 @@ conf.set('color', {
 conf.get('color.name');
 // => "cerulean"
  
-conf.get('color.code.rgb[1]');
+conf.get('color.code.rgb.1');
 // => 179
 ```
 
